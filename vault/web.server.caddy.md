@@ -29,5 +29,3 @@ caddy file-server
 
 docker run --network host -v $PWD:/srv caddy caddy file-server --root /srv --listen localhost:2333 -browse
 ```
-
-

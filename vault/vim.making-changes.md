@@ -18,11 +18,11 @@ created: 1629264231044
 
 ## Clipboard
 
-To copy a line to the clipboard: 
+To copy a line to the clipboard:
 
         "*yy
 
-To put text from the clipboard back into the text: 
+To put text from the clipboard back into the text:
 
         "*p
 

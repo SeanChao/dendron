@@ -1,11 +1,19 @@
 {
-    "scripts": {
-        "dendron-cli": "dendron-cli",
-        "dev": "dendron buildSite  --stage dev --serve",
-        "build": "yarn dendron-cli -- buildSiteV2 --wsRoot .  --stage prod"
-    },
-    "license": "CC BY 4.0",
-    "devDependencies": {
-        "@dendronhq/dendron-cli": "*"
-    }
+  "scripts": {
+    "dendron-cli": "dendron-cli",
+    "dev": "dendron buildSite --stage dev --serve",
+    "build": "yarn dendron-cli -- buildSiteV2 --wsRoot .  --stage prod",
+    "prepare": "husky install",
+    "format": "npx lint-staged"
+  },
+  "license": "CC BY 4.0",
+  "devDependencies": {
+    "@dendronhq/dendron-cli": "*",
+    "husky": ">=6",
+    "lint-staged": ">=10",
+    "prettier": "^2.3.2"
+  },
+  "lint-staged": {
+    "*.{js,json,css,md}": "prettier --write"
+  }
 }

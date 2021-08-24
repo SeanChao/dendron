@@ -17,4 +17,3 @@ debug = 1
 ## Valgrind DHAT
 
     valgrind --tool=dhat ./prog
-
