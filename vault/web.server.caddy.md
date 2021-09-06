@@ -2,7 +2,7 @@
 id: 4O8DwOWFaDGYGuRwQhlGo
 title: Caddy
 desc: ''
-updated: 1629257311188
+updated: 1630772056464
 created: 1629256733447
 ---
 
@@ -14,6 +14,12 @@ created: 1629256733447
 
 ```sh
 docker run caddy caddy file-server
+```
+
+## Caddyfile
+
+```Caddyfile
+
 ```
 
 ## File server
@@ -28,4 +34,13 @@ caddy file-server
 	[--access-log]
 
 docker run --network host -v $PWD:/srv caddy caddy file-server --root /srv --listen localhost:2333 -browse
+```
+
+## Reverse Proxy
+
+```
+route /stgui/* {
+  uri strip_prefix /stgui
+  reverse_proxy syncthing:8384
+}
 ```

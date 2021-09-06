@@ -2,7 +2,7 @@
 id: q6pJclRsTZxkELPEhZmaM
 title: Git
 desc: ''
-updated: 1630332614750
+updated: 1630931254899
 created: 1629355098634
 ---
 
@@ -18,6 +18,10 @@ Revert the initial commit:
 Turn off paged output:
 
     git config --global pager.branch false
+
+Squash and merge:
+
+    git merge --squash bugfix
 
 ## Clean up
 
