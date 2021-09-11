@@ -2,7 +2,7 @@
 id: bFGSO6IQzvd38BNuz0QTg
 title: String
 desc: ''
-updated: 1630811072623
+updated: 1631242404735
 created: 1629790933556
 ---
 
@@ -28,3 +28,5 @@ assert_eq!("123foo1bar123".trim_end_matches(char::is_numeric), "123foo1bar");
 let x: &[_] = &['1', '2'];
 assert_eq!("12foo1bar12".trim_end_matches(x), "12foo1bar");
 ```
+
+Turn `Vec<u8>` into `String`: `str::from_utf8(buf)`
