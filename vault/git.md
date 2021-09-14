@@ -2,9 +2,14 @@
 id: q6pJclRsTZxkELPEhZmaM
 title: Git
 desc: ''
-updated: 1630931254899
+updated: 1631605145819
 created: 1629355098634
 ---
+
+Revert local changes:
+
+    git checkout .
+    git clean -fd # force, and recursive into dirs
 
 Roll back to previous commit
 
