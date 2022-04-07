@@ -2,7 +2,7 @@
 id: WAZDIhNBmlbDYYcAW85dK
 title: Moving
 desc: ''
-updated: 1629263962409
+updated: 1647842337586
 created: 1629257563529
 ---
 
@@ -48,7 +48,7 @@ zz: focus on current line
 
 ## Marks and Jump
 
-`` ` ` ``, `''`: [JUMP] jump back (to exact column, beginning of lie)
+`` ` ` ``, `''`: [JUMP] jump back (to exact column, beginning of line)
 
 `CTRL-O`: jumps to older positions
 
