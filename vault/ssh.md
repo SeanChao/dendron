@@ -2,9 +2,11 @@
 id: 34HTG9klr3NzTjkUghbvJ
 title: Ssh
 desc: ''
-updated: 1630932083347
+updated: 1649914034427
 created: 1630931658841
 ---
+
+## SSH Client Config File
 
 ```ssh
 Host example.com
@@ -15,3 +17,11 @@ Host example.com
 ```
 
 On the target machine: add the public key into `~/.ssh/authorized_keys`
+
+## Key Management
+
+### Private Key Permissions
+
+The private key should be owner read only (0400). ^pkp
+
+See also: [[FS permissions|filesystem#Permissions]]
