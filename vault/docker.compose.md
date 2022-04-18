@@ -2,9 +2,11 @@
 id: NjmLXR2FTwuqZG4PMPoZM
 title: Compose
 desc: ''
-updated: 1630770527675
+updated: 1650205948489
 created: 1630681664800
 ---
+
+## Compose File
 
 Reference: [compose-file-v3](https://docs.docker.com/compose/compose-file/compose-file-v3)
 
@@ -32,4 +34,11 @@ services:
       - '2333:443'
     env_file:
       - tg.env
+```
+
+## CLI
+
+```text
+  -f, --file FILE             Specify an alternate compose file
+                              (default: docker-compose.yml)
 ```
