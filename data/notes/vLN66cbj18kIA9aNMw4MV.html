@@ -1,0 +1,37 @@
+<h1 id="github-actions"><a aria-hidden="true" class="anchor-heading" href="#github-actions"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>GitHub Actions</h1>
+<p>Github actions snippets.</p>
+<p><a href="https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions">Syntax reference</a></p>
+<pre class="language-yml"><code class="language-yml"><span class="token key atrule">on</span><span class="token punctuation">:</span>
+  <span class="token key atrule">schedule</span><span class="token punctuation">:</span>
+    <span class="token punctuation">-</span> <span class="token key atrule">cron</span><span class="token punctuation">:</span> <span class="token string">'0 20 */3 * *'</span> <span class="token comment"># Runs at 20:00 UTC every 3 days.</span>
+
+<span class="token key atrule">on</span><span class="token punctuation">:</span>
+  <span class="token key atrule">push</span><span class="token punctuation">:</span>
+    <span class="token key atrule">branches</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> main
+      <span class="token punctuation">-</span> dev
+
+<span class="token key atrule">jobs</span><span class="token punctuation">:</span>
+  <span class="token key atrule">job1</span><span class="token punctuation">:</span>
+  <span class="token key atrule">job2</span><span class="token punctuation">:</span>
+    <span class="token key atrule">needs</span><span class="token punctuation">:</span> job1 <span class="token comment"># skip if job1 failed</span>
+  <span class="token key atrule">job3</span><span class="token punctuation">:</span>
+    <span class="token key atrule">needs</span><span class="token punctuation">:</span> <span class="token punctuation">[</span>job1<span class="token punctuation">,</span> job2<span class="token punctuation">]</span>
+    <span class="token key atrule">runs-on</span><span class="token punctuation">:</span> ubuntu<span class="token punctuation">-</span>latest
+    <span class="token key atrule">steps</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> <span class="token key atrule">uses</span><span class="token punctuation">:</span> ncipollo/release<span class="token punctuation">-</span>action@v1
+        <span class="token key atrule">with</span><span class="token punctuation">:</span>
+          <span class="token key atrule">allowUpdates</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+          <span class="token key atrule">artifacts</span><span class="token punctuation">:</span> <span class="token string">"target/release/file"</span>
+          <span class="token key atrule">token</span><span class="token punctuation">:</span> $<span class="token punctuation">{</span><span class="token punctuation">{</span> secrets.GITHUB_TOKEN <span class="token punctuation">}</span><span class="token punctuation">}</span>
+      <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> Deploy 🚀
+        <span class="token key atrule">uses</span><span class="token punctuation">:</span> JamesIves/github<span class="token punctuation">-</span>pages<span class="token punctuation">-</span>deploy<span class="token punctuation">-</span>action@4.1.5
+        <span class="token key atrule">with</span><span class="token punctuation">:</span>
+          <span class="token key atrule">branch</span><span class="token punctuation">:</span> gh<span class="token punctuation">-</span>pages <span class="token comment"># The branch the action should deploy to.</span>
+          <span class="token key atrule">folder</span><span class="token punctuation">:</span> build <span class="token comment"># The folder the action should deploy.</span>
+</code></pre>
+<hr>
+<strong>Children</strong>
+<ol>
+<li><a href="/notes/zq90O0PuaZoF5QghaJyNA">Cache</a></li>
+</ol>

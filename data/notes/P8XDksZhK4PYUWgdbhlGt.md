@@ -1,0 +1,6 @@
+
+## Release
+
+```
+cargo build --release
+```

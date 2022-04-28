@@ -1,0 +1,21 @@
+<h1 id="cache"><a aria-hidden="true" class="anchor-heading" href="#cache"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Cache</h1>
+<p>Examples to cache dependencies in GitHub actions.</p>
+<h2 id="npm"><a aria-hidden="true" class="anchor-heading" href="#npm"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>NPM</h2>
+<pre class="language-yml"><code class="language-yml"><span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> Cache NPM dependencies
+  <span class="token key atrule">uses</span><span class="token punctuation">:</span> actions/cache@v2
+  <span class="token key atrule">with</span><span class="token punctuation">:</span>
+    <span class="token key atrule">path</span><span class="token punctuation">:</span> <span class="token punctuation">|</span><span class="token scalar string">
+      **/node_modules</span>
+    <span class="token key atrule">key</span><span class="token punctuation">:</span> $<span class="token punctuation">{</span><span class="token punctuation">{</span> runner.os <span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token punctuation">-</span>$<span class="token punctuation">{</span><span class="token punctuation">{</span> hashFiles('<span class="token important">**/yarn.lock')</span> <span class="token punctuation">}</span><span class="token punctuation">}</span>
+</code></pre>
+<h2 id="rustcargo"><a aria-hidden="true" class="anchor-heading" href="#rustcargo"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Rust/Cargo</h2>
+<pre class="language-yml"><code class="language-yml"><span class="token punctuation">-</span> <span class="token key atrule">uses</span><span class="token punctuation">:</span> actions/cache@v2
+  <span class="token key atrule">with</span><span class="token punctuation">:</span>
+    <span class="token key atrule">path</span><span class="token punctuation">:</span> <span class="token punctuation">|</span><span class="token scalar string">
+      ~/.cargo/bin/
+      ~/.cargo/registry/index/
+      ~/.cargo/registry/cache/
+      ~/.cargo/git/db/
+      target/</span>
+    <span class="token key atrule">key</span><span class="token punctuation">:</span> $<span class="token punctuation">{</span><span class="token punctuation">{</span> runner.os <span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token punctuation">-</span>cargo<span class="token punctuation">-</span>$<span class="token punctuation">{</span><span class="token punctuation">{</span> hashFiles('<span class="token important">**/Cargo.lock')</span> <span class="token punctuation">}</span><span class="token punctuation">}</span>
+</code></pre>

@@ -1,0 +1,17 @@
+<h1 id="solana"><a aria-hidden="true" class="anchor-heading" href="#solana"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Solana</h1>
+<h2 id="vanity-address-generation"><a aria-hidden="true" class="anchor-heading" href="#vanity-address-generation"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Vanity Address Generation</h2>
+<pre><code>solana-keygen grind --starts-and-ends-with prefix:suffix:numberToGenerate --num-threads 4
+</code></pre>
+<p>The generated private key is an array of bytes, convert to hex string in Python: </p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">Number</span></div>
+<a href="/notes/v4lpdn9lzw7nqxacy17cbim" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><p>pad with <code>0</code> to length of <code>2</code> in hex</p>
+<pre class="language-python"><code class="language-python"><span class="token string">''</span><span class="token punctuation">.</span>join<span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token string-interpolation"><span class="token string">f"</span><span class="token interpolation"><span class="token punctuation">{</span>b<span class="token punctuation">:</span><span class="token format-spec">02x</span><span class="token punctuation">}</span></span><span class="token string">"</span></span> <span class="token keyword">for</span> b <span class="token keyword">in</span> bytes_array<span class="token punctuation">]</span><span class="token punctuation">)</span>
+<span class="token comment"># [1, 255] -> '01ff'</span>
+</code></pre></div></div><p></p><p></p>

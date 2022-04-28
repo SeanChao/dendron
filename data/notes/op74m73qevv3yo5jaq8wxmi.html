@@ -1,0 +1,23 @@
+<h1 id="proxy"><a aria-hidden="true" class="anchor-heading" href="#proxy"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Proxy</h1>
+<h2 id="daemon"><a aria-hidden="true" class="anchor-heading" href="#daemon"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Daemon</h2>
+<p>Edit <code>/etc/default/docker</code>:</p>
+<pre class="language-sh"><code class="language-sh">export HTTPS_PROXY="http://sean-laptop.local:1080"
+export HTTP_PROXY="http://sean-laptop.local:1080"
+</code></pre>
+<h2 id="client"><a aria-hidden="true" class="anchor-heading" href="#client"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Client</h2>
+<p>Edit <code>~/.docker/config.json</code></p>
+<pre class="language-json"><code class="language-json"><span class="token punctuation">{</span>
+  <span class="token property">"proxies"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property">"default"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token property">"httpProxy"</span><span class="token operator">:</span> <span class="token string">"http://192.168.1.12:3128"</span><span class="token punctuation">,</span>
+      <span class="token property">"httpsProxy"</span><span class="token operator">:</span> <span class="token string">"http://192.168.1.12:3128"</span><span class="token punctuation">,</span>
+      <span class="token property">"noProxy"</span><span class="token operator">:</span> <span class="token string">"*.test.example.com,.example2.com,127.0.0.0/8"</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<h2 id="reference"><a aria-hidden="true" class="anchor-heading" href="#reference"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Reference</h2>
+<ul>
+<li><a href="https://docs.docker.com/config/daemon/systemd/">https://docs.docker.com/config/daemon/systemd/</a></li>
+<li><a href="https://docs.docker.com/network/proxy/#configure-the-docker-client">https://docs.docker.com/network/proxy/#configure-the-docker-client</a></li>
+</ul>

@@ -1,0 +1,37 @@
+<h1 id="docker"><a aria-hidden="true" class="anchor-heading" href="#docker"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Docker</h1>
+<h2 id="build-a-docker-image"><a aria-hidden="true" class="anchor-heading" href="#build-a-docker-image"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Build a Docker Image</h2>
+<p>Create a <code>Dockerfile</code>:</p>
+<pre class="language-dockerfile"><code class="language-Dockerfile"><span class="token instruction"><span class="token keyword">FROM</span> node:alpine</span>
+
+<span class="token comment"># Create app directory</span>
+<span class="token instruction"><span class="token keyword">WORKDIR</span> /usr/src/app</span>
+
+<span class="token comment"># Install app dependencies</span>
+<span class="token comment"># A wildcard is used to ensure both package.json AND package-lock.json are copied</span>
+<span class="token comment"># where available (npm@5+)</span>
+<span class="token instruction"><span class="token keyword">COPY</span> package*.json ./</span>
+
+<span class="token instruction"><span class="token keyword">RUN</span> npm install</span>
+<span class="token comment"># If you are building your code for production</span>
+<span class="token comment"># RUN npm ci --only=production</span>
+
+<span class="token comment"># Bundle app source</span>
+<span class="token instruction"><span class="token keyword">COPY</span> . .</span>
+
+<span class="token instruction"><span class="token keyword">EXPOSE</span> 8080</span>
+<span class="token instruction"><span class="token keyword">CMD</span> [ <span class="token string">"node"</span>, <span class="token string">"server.js"</span> ]</span>
+</code></pre>
+<h2 id="usage-in-docker-compose"><a aria-hidden="true" class="anchor-heading" href="#usage-in-docker-compose"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Usage in <code>docker-compose</code></h2>
+<pre class="language-yaml"><code class="language-yaml"><span class="token key atrule">services</span><span class="token punctuation">:</span>
+  <span class="token key atrule">app</span><span class="token punctuation">:</span>
+    <span class="token key atrule">restart</span><span class="token punctuation">:</span> on<span class="token punctuation">-</span>failure
+    <span class="token key atrule">build</span><span class="token punctuation">:</span>
+      <span class="token key atrule">context</span><span class="token punctuation">:</span> .
+      <span class="token key atrule">dockerfile</span><span class="token punctuation">:</span> app.Dockerfile
+    <span class="token key atrule">image</span><span class="token punctuation">:</span> <span class="token string">'node:alpine'</span>
+    <span class="token key atrule">volumes</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> <span class="token string">'./app.js:/usr/src/app.js'</span>
+    <span class="token key atrule">command</span><span class="token punctuation">:</span> <span class="token string">'node app.js'</span>
+</code></pre>
+<p>Note the mounting point should be consistent with the <code>Dockerfile</code>.</p>
+<p>See also <a href="/notes/NjmLXR2FTwuqZG4PMPoZM">Compose</a></p>

@@ -1,0 +1,16 @@
+<h1 id="notifications"><a aria-hidden="true" class="anchor-heading" href="#notifications"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Notifications</h1>
+<pre><code>PUBLISH __keyspace@0__:mykey del # notifies a key
+PUBLISH __keyevent@0__:del mykey # notifies an event
+</code></pre>
+<h2 id="configuration"><a aria-hidden="true" class="anchor-heading" href="#configuration"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Configuration</h2>
+<pre class="language-text"><code class="language-text">K     Keyspace events, published with __keyspace@&#x3C;db>__ prefix.
+E     Keyevent events, published with __keyevent@&#x3C;db>__ prefix.
+
+A     All.
+
+# in redis.conf:
+notify-keyspace-events Kx
+</code></pre>
+<p>Watch events:</p>
+<pre class="language-sh"><code class="language-sh">redis-cli --csv psubscribe '__key*__:*'
+</code></pre>
