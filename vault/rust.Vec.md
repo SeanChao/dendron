@@ -2,7 +2,7 @@
 id: k39RuYAC7CdaMz6kejaTf
 title: Vec
 desc: ''
-updated: 1661064114972
+updated: 1661930171679
 created: 1630726736756
 ---
 
@@ -16,4 +16,14 @@ Emptiness: `pub fn is_empty(&self) -> bool`
 let v = Vec::new();
 v.push(1);
 let i = v.pop().unwrap();
+```
+
+## Slicing
+
+Create a sub array:
+
+```rust
+let v = vec![1, 2, 3, 4, 5];
+let slice: &[i32] = &v[1..3];
+let sub_v: Vec<i32> = v[0..].to_vec();
 ```

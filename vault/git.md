@@ -2,7 +2,7 @@
 id: q6pJclRsTZxkELPEhZmaM
 title: Git
 desc: ''
-updated: 1631605145819
+updated: 1662445199514
 created: 1629355098634
 ---
 
@@ -15,6 +15,10 @@ Roll back to previous commit
 
     git checkout -b old xxxxxx
     git reset --hard xxxxxx # beware!
+
+Revert local modifications to a file:
+
+    git checkout HEAD -- <file>
 
 Revert the initial commit:
 
