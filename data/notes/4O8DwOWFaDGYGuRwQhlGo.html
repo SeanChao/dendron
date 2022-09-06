@@ -1,0 +1,27 @@
+<h1 id="caddy"><a aria-hidden="true" class="anchor-heading" href="#caddy"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Caddy</h1>
+<blockquote>
+<p><a href="https://caddyserver.com/docs/command-line">CLI reference</a></p>
+</blockquote>
+<h2 id="docker"><a aria-hidden="true" class="anchor-heading" href="#docker"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Docker</h2>
+<p>⚠ Don't forget to map ports or use host network!</p>
+<pre class="language-sh"><code class="language-sh">docker run caddy caddy file-server
+</code></pre>
+<h2 id="caddyfile"><a aria-hidden="true" class="anchor-heading" href="#caddyfile"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Caddyfile</h2>
+<pre class="language-caddyfile"><code class="language-Caddyfile"></code></pre>
+<h2 id="file-server"><a aria-hidden="true" class="anchor-heading" href="#file-server"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>File server</h2>
+<pre class="language-sh"><code class="language-sh">caddy file-server
+	[--root &#x3C;path>]
+	[--listen &#x3C;addr>]
+	[--domain &#x3C;example.com>]
+	[--browse]
+	[--templates]
+	[--access-log]
+
+docker run --network host -v $PWD:/srv caddy caddy file-server --root /srv --listen localhost:2333 -browse
+</code></pre>
+<h2 id="reverse-proxy"><a aria-hidden="true" class="anchor-heading" href="#reverse-proxy"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Reverse Proxy</h2>
+<pre><code>route /stgui/* {
+  uri strip_prefix /stgui
+  reverse_proxy syncthing:8384
+}
+</code></pre>

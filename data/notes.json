@@ -1,0 +1,2417 @@
+{
+  "notes": {
+    "403": {
+      "vault": {
+        "fsPath": "vault"
+      },
+      "fname": "403",
+      "id": "403",
+      "title": "This page has not yet sprouted",
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1662445279539,
+      "created": 1662445279539,
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": null,
+      "data": {}
+    },
+    "root": {
+      "id": "root",
+      "title": "root",
+      "desc": "",
+      "updated": 1629283164297,
+      "created": 1595961348801,
+      "stub": false,
+      "custom": {
+        "stub": false,
+        "nav_order": 0,
+        "permalink": "/"
+      },
+      "fname": "root",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "93c88ed3adea90427fdf39121b331342",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "okew0flrpfnigkzv389165w",
+        "n6gwvp2ofauwivuxt5o4eip",
+        "aJOPNFwrIPLtAyP5ZH7OH",
+        "1KxSxofvnokSQe53CFOo0",
+        "O2S4W1M85TQUNB6ezSii6",
+        "kT8lGz7T92y83Bmayuek3",
+        "2sq996cqtzuvgkkb0oxaffi",
+        "q6pJclRsTZxkELPEhZmaM",
+        "vLN66cbj18kIA9aNMw4MV",
+        "lqHJHeKtzqn5G8uV6Dgjz",
+        "zutS4hYNVCo2dpYj9kOag",
+        "57f4clQJ2JXrmofcgEiEg",
+        "iGcqmAnPvaNbv3id9Yzlq",
+        "1HMHIbaI72wqV5yygOOy2",
+        "5cC5mQxrfumDIfdcdCVDc",
+        "ilYZBynzACvCgbahKiEJS",
+        "XwQeSexcG9aXR3Nup9sfO",
+        "WV5rSesInioRzqHshkj3d",
+        "34HTG9klr3NzTjkUghbvJ",
+        "X9uWnD0W4PueyYSNY5t1G",
+        "H47jfrioajR7bt6nfIzv8",
+        "8iHAYz6PYx7El5ebflATs",
+        "0qr5dqtgurrycsmhcs1ne8j",
+        "gajq97i0tzjjmn3lbwoxzyb",
+        "6jlu0z5bi4vsre3q2g1wocs",
+        "kb6x14sej5pohx7rvdhe7vh",
+        "lyfjirhhdg0n882kxx32j13",
+        "9bwrkklew20kpuaxwcnknm7",
+        "k85g4f75rswmy0zp09cdazj"
+      ],
+      "parent": null,
+      "data": {}
+    },
+    "k85g4f75rswmy0zp09cdazj": {
+      "fname": "web3",
+      "stub": true,
+      "vault": {
+        "fsPath": "vault"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1662445279466,
+      "created": 1662445279466,
+      "id": "k85g4f75rswmy0zp09cdazj",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "ql0v0duo4cfjgvzge3wvu7f"
+      ],
+      "parent": "root",
+      "data": {},
+      "title": "Web3"
+    },
+    "ql0v0duo4cfjgvzge3wvu7f": {
+      "fname": "web3.blockchain",
+      "stub": true,
+      "vault": {
+        "fsPath": "vault"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1662445279466,
+      "created": 1662445279466,
+      "id": "ql0v0duo4cfjgvzge3wvu7f",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "3qif2pbeb3qe4ox75zwdg1p"
+      ],
+      "parent": "k85g4f75rswmy0zp09cdazj",
+      "data": {},
+      "title": "Blockchain"
+    },
+    "3qif2pbeb3qe4ox75zwdg1p": {
+      "id": "3qif2pbeb3qe4ox75zwdg1p",
+      "title": "Solana",
+      "desc": "",
+      "updated": 1649916789454,
+      "created": 1649912764883,
+      "custom": {},
+      "fname": "web3.blockchain.solana",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "806de631c6657d2f1fea6515d18e8728",
+      "links": [
+        {
+          "type": "ref",
+          "from": {
+            "fname": "web3.blockchain.solana",
+            "id": "3qif2pbeb3qe4ox75zwdg1p",
+            "vaultName": "vault"
+          },
+          "value": "python.number",
+          "position": {
+            "start": {
+              "line": 6,
+              "column": 82,
+              "offset": 207
+            },
+            "end": {
+              "line": 6,
+              "column": 128,
+              "offset": 253
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "python.number",
+            "anchorHeader": "bytes-array-to-hex-string,1"
+          }
+        }
+      ],
+      "anchors": {
+        "vanity-address-generation": {
+          "type": "header",
+          "text": "Vanity Address Generation",
+          "value": "vanity-address-generation",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "ql0v0duo4cfjgvzge3wvu7f",
+      "data": {}
+    },
+    "9bwrkklew20kpuaxwcnknm7": {
+      "fname": "sql",
+      "stub": true,
+      "vault": {
+        "fsPath": "vault"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1662445279464,
+      "created": 1662445279464,
+      "id": "9bwrkklew20kpuaxwcnknm7",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "9cglkphlxzj9zchgf04og5n"
+      ],
+      "parent": "root",
+      "data": {},
+      "title": "Sql"
+    },
+    "9cglkphlxzj9zchgf04og5n": {
+      "id": "9cglkphlxzj9zchgf04og5n",
+      "title": "Postgres",
+      "desc": "",
+      "updated": 1650807044427,
+      "created": 1650807044427,
+      "custom": {},
+      "fname": "sql.postgres",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "6126604c88e660caf3c114294fb7b947",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "a9k68dljdgn2ruzdco4osfy",
+        "a1g2luxmdqyj6jy7li1olz7"
+      ],
+      "parent": "9bwrkklew20kpuaxwcnknm7",
+      "data": {}
+    },
+    "a1g2luxmdqyj6jy7li1olz7": {
+      "id": "a1g2luxmdqyj6jy7li1olz7",
+      "title": "Operators",
+      "desc": "",
+      "updated": 1650971883269,
+      "created": 1650971823803,
+      "custom": {},
+      "fname": "sql.postgres.operators",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "b4f084cd971b722686f6f576d300ad92",
+      "links": [],
+      "anchors": {
+        "in": {
+          "type": "header",
+          "text": "IN",
+          "value": "in",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "9cglkphlxzj9zchgf04og5n",
+      "data": {}
+    },
+    "a9k68dljdgn2ruzdco4osfy": {
+      "id": "a9k68dljdgn2ruzdco4osfy",
+      "title": "Functions_operators",
+      "desc": "",
+      "updated": 1650807449515,
+      "created": 1650807126347,
+      "custom": {},
+      "fname": "sql.postgres.functions_operators",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "704f7e70086f5f3d84a16cec1b82f0b7",
+      "links": [],
+      "anchors": {
+        "conditional-expressions": {
+          "type": "header",
+          "text": "Conditional Expressions",
+          "value": "conditional-expressions",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "reference": {
+          "type": "header",
+          "text": "Reference",
+          "value": "reference",
+          "line": 17,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "9cglkphlxzj9zchgf04og5n",
+      "data": {}
+    },
+    "lyfjirhhdg0n882kxx32j13": {
+      "fname": "pki",
+      "stub": true,
+      "vault": {
+        "fsPath": "vault"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1662445279462,
+      "created": 1662445279462,
+      "id": "lyfjirhhdg0n882kxx32j13",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "wpwkof95w1vsts82kdl944j"
+      ],
+      "parent": "root",
+      "data": {},
+      "title": "Pki"
+    },
+    "wpwkof95w1vsts82kdl944j": {
+      "id": "wpwkof95w1vsts82kdl944j",
+      "title": "Gpg",
+      "desc": "",
+      "updated": 1657293199760,
+      "created": 1657293150393,
+      "custom": {},
+      "fname": "pki.gpg",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "1acb5acf9ef2df6139efb80426095b3e",
+      "links": [],
+      "anchors": {
+        "exporting--importing": {
+          "type": "header",
+          "text": "Exporting & Importing",
+          "value": "exporting--importing",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "lyfjirhhdg0n882kxx32j13",
+      "data": {}
+    },
+    "kb6x14sej5pohx7rvdhe7vh": {
+      "fname": "node",
+      "stub": true,
+      "vault": {
+        "fsPath": "vault"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1662445279460,
+      "created": 1662445279460,
+      "id": "kb6x14sej5pohx7rvdhe7vh",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "HTDZyYMUpPs7XVuTr7fgu"
+      ],
+      "parent": "root",
+      "data": {},
+      "title": "Node"
+    },
+    "HTDZyYMUpPs7XVuTr7fgu": {
+      "id": "HTDZyYMUpPs7XVuTr7fgu",
+      "title": "Npm",
+      "desc": "",
+      "updated": 1630812579802,
+      "created": 1630812398804,
+      "custom": {},
+      "fname": "node.npm",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "1a3290d7afc3f28f3cc68d67523fb48b",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "kb6x14sej5pohx7rvdhe7vh",
+      "data": {}
+    },
+    "6jlu0z5bi4vsre3q2g1wocs": {
+      "fname": "machine_learning",
+      "stub": true,
+      "vault": {
+        "fsPath": "vault"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1662445279460,
+      "created": 1662445279460,
+      "id": "6jlu0z5bi4vsre3q2g1wocs",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "yd2w94lhzi0zhafo0yskzq3"
+      ],
+      "parent": "root",
+      "data": {},
+      "title": "Machine_learning"
+    },
+    "yd2w94lhzi0zhafo0yskzq3": {
+      "id": "yd2w94lhzi0zhafo0yskzq3",
+      "title": "Model_size",
+      "desc": "",
+      "updated": 1651147800153,
+      "created": 1651147769383,
+      "custom": {},
+      "fname": "machine_learning.model_size",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "ce1d1c476818067b66e9d8daaa1fbbb3",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "6jlu0z5bi4vsre3q2g1wocs",
+      "data": {}
+    },
+    "gajq97i0tzjjmn3lbwoxzyb": {
+      "fname": "latex",
+      "stub": true,
+      "vault": {
+        "fsPath": "vault"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1662445279460,
+      "created": 1662445279460,
+      "id": "gajq97i0tzjjmn3lbwoxzyb",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "8suvu5ivg0tkcar94hfga80"
+      ],
+      "parent": "root",
+      "data": {},
+      "title": "Latex"
+    },
+    "8suvu5ivg0tkcar94hfga80": {
+      "id": "8suvu5ivg0tkcar94hfga80",
+      "title": "Commands",
+      "desc": "",
+      "updated": 1650956683550,
+      "created": 1650956356997,
+      "custom": {},
+      "fname": "latex.commands",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "51032fdffb81bbf00949d2cf781591d2",
+      "links": [],
+      "anchors": {
+        "define-commands": {
+          "type": "header",
+          "text": "Define Commands",
+          "value": "define-commands",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "reference": {
+          "type": "header",
+          "text": "Reference",
+          "value": "reference",
+          "line": 19,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "gajq97i0tzjjmn3lbwoxzyb",
+      "data": {}
+    },
+    "0qr5dqtgurrycsmhcs1ne8j": {
+      "id": "0qr5dqtgurrycsmhcs1ne8j",
+      "title": "Wsl",
+      "desc": "",
+      "updated": 1649427896753,
+      "created": 1649426187229,
+      "custom": {},
+      "fname": "wsl",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "49b67af9c92d05880abce5a1b2b04ca7",
+      "links": [],
+      "anchors": {
+        "resize-vhdx-file": {
+          "type": "header",
+          "text": "Resize VHDX file",
+          "value": "resize-vhdx-file",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "root",
+      "data": {}
+    },
+    "8iHAYz6PYx7El5ebflATs": {
+      "id": "8iHAYz6PYx7El5ebflATs",
+      "title": "Web",
+      "desc": "",
+      "updated": 1629259063741,
+      "created": 1629259063741,
+      "stub": true,
+      "custom": {
+        "stub": true
+      },
+      "fname": "web",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "45bd351c1af87799eee88116490037bf",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "Vah4vVVetAz6GlAjzXTAs"
+      ],
+      "parent": "root",
+      "data": {}
+    },
+    "Vah4vVVetAz6GlAjzXTAs": {
+      "id": "Vah4vVVetAz6GlAjzXTAs",
+      "title": "Server",
+      "desc": "",
+      "updated": 1629259063741,
+      "created": 1629259063741,
+      "stub": true,
+      "custom": {
+        "stub": true
+      },
+      "fname": "web.server",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "9ed357882168a2a146a61d4e2ee5097a",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "4O8DwOWFaDGYGuRwQhlGo"
+      ],
+      "parent": "8iHAYz6PYx7El5ebflATs",
+      "data": {}
+    },
+    "4O8DwOWFaDGYGuRwQhlGo": {
+      "id": "4O8DwOWFaDGYGuRwQhlGo",
+      "title": "Caddy",
+      "desc": "",
+      "updated": 1630772056464,
+      "created": 1629256733447,
+      "custom": {},
+      "fname": "web.server.caddy",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "9629e4f15ede0863b60c92c9d1f8b3d3",
+      "links": [],
+      "anchors": {
+        "docker": {
+          "type": "header",
+          "text": "Docker",
+          "value": "docker",
+          "line": 10,
+          "column": 0,
+          "depth": 2
+        },
+        "caddyfile": {
+          "type": "header",
+          "text": "Caddyfile",
+          "value": "caddyfile",
+          "line": 18,
+          "column": 0,
+          "depth": 2
+        },
+        "file-server": {
+          "type": "header",
+          "text": "File server",
+          "value": "file-server",
+          "line": 24,
+          "column": 0,
+          "depth": 2
+        },
+        "reverse-proxy": {
+          "type": "header",
+          "text": "Reverse Proxy",
+          "value": "reverse-proxy",
+          "line": 38,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "Vah4vVVetAz6GlAjzXTAs",
+      "data": {}
+    },
+    "H47jfrioajR7bt6nfIzv8": {
+      "id": "H47jfrioajR7bt6nfIzv8",
+      "title": "Vim",
+      "desc": "",
+      "updated": 1629257452983,
+      "created": 1629254875423,
+      "custom": {},
+      "fname": "vim",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "682a9936f15c8f2f3583deb923760d39",
+      "links": [],
+      "anchors": {
+        "cheatsheets": {
+          "type": "header",
+          "text": "Cheatsheets",
+          "value": "cheatsheets",
+          "line": 10,
+          "column": 0,
+          "depth": 2
+        },
+        "reference": {
+          "type": "header",
+          "text": "Reference",
+          "value": "reference",
+          "line": 14,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [
+        "N7WZlmkyVkVsmDXcSZ5cz",
+        "shmxo9dIs6YlQNYdfI41a",
+        "WAZDIhNBmlbDYYcAW85dK"
+      ],
+      "parent": "root",
+      "data": {}
+    },
+    "WAZDIhNBmlbDYYcAW85dK": {
+      "id": "WAZDIhNBmlbDYYcAW85dK",
+      "title": "Moving",
+      "desc": "",
+      "updated": 1647842337586,
+      "created": 1629257563529,
+      "custom": {},
+      "fname": "vim.moving",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "9e511f16a89c7191bb9eca2e5a4cf9b1",
+      "links": [],
+      "anchors": {
+        "moving-around": {
+          "type": "header",
+          "text": "Moving around",
+          "value": "moving-around",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "scrolling": {
+          "type": "header",
+          "text": "Scrolling",
+          "value": "scrolling",
+          "line": 24,
+          "column": 0,
+          "depth": 3
+        },
+        "marks-and-jump": {
+          "type": "header",
+          "text": "Marks and Jump",
+          "value": "marks-and-jump",
+          "line": 48,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "H47jfrioajR7bt6nfIzv8",
+      "data": {}
+    },
+    "shmxo9dIs6YlQNYdfI41a": {
+      "id": "shmxo9dIs6YlQNYdfI41a",
+      "title": "Making Changes",
+      "desc": "",
+      "updated": 1629339766933,
+      "created": 1629264231044,
+      "custom": {},
+      "fname": "vim.making-changes",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "0f79814d939faf7982dc8b2ffe0ff310",
+      "links": [],
+      "anchors": {
+        "common": {
+          "type": "header",
+          "text": "Common",
+          "value": "common",
+          "line": 10,
+          "column": 0,
+          "depth": 2
+        },
+        "clipboard": {
+          "type": "header",
+          "text": "Clipboard",
+          "value": "clipboard",
+          "line": 18,
+          "column": 0,
+          "depth": 2
+        },
+        "text-objects": {
+          "type": "header",
+          "text": "Text Objects",
+          "value": "text-objects",
+          "line": 28,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "H47jfrioajR7bt6nfIzv8",
+      "data": {}
+    },
+    "N7WZlmkyVkVsmDXcSZ5cz": {
+      "id": "N7WZlmkyVkVsmDXcSZ5cz",
+      "title": "Folding",
+      "desc": "",
+      "updated": 1631154595243,
+      "created": 1631154565046,
+      "custom": {},
+      "fname": "vim.folding",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "607fabea3296d5fcf0079658cd033267",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "H47jfrioajR7bt6nfIzv8",
+      "data": {}
+    },
+    "X9uWnD0W4PueyYSNY5t1G": {
+      "id": "X9uWnD0W4PueyYSNY5t1G",
+      "title": "Tldr",
+      "desc": "",
+      "updated": 1629283062413,
+      "created": 1629283030717,
+      "custom": {},
+      "fname": "tldr",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "b0a87f0d92a3ea1c7f27ef445d727367",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "root",
+      "data": {}
+    },
+    "34HTG9klr3NzTjkUghbvJ": {
+      "id": "34HTG9klr3NzTjkUghbvJ",
+      "title": "Ssh",
+      "desc": "",
+      "updated": 1649914034427,
+      "created": 1630931658841,
+      "custom": {},
+      "fname": "ssh",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "37fa3ee9396b5a0e0fdd761f4c486745",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "ssh",
+            "id": "34HTG9klr3NzTjkUghbvJ",
+            "vaultName": "vault"
+          },
+          "value": "filesystem",
+          "alias": "FS permissions",
+          "position": {
+            "start": {
+              "line": 20,
+              "column": 11,
+              "offset": 340
+            },
+            "end": {
+              "line": 20,
+              "column": 52,
+              "offset": 381
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "filesystem",
+            "anchorHeader": "Permissions"
+          }
+        }
+      ],
+      "anchors": {
+        "ssh-client-config-file": {
+          "type": "header",
+          "text": "SSH Client Config File",
+          "value": "ssh-client-config-file",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "key-management": {
+          "type": "header",
+          "text": "Key Management",
+          "value": "key-management",
+          "line": 20,
+          "column": 0,
+          "depth": 2
+        },
+        "private-key-permissions": {
+          "type": "header",
+          "text": "Private Key Permissions",
+          "value": "private-key-permissions",
+          "line": 22,
+          "column": 0,
+          "depth": 3
+        },
+        "^pkp": {
+          "type": "block",
+          "value": "pkp",
+          "line": 24,
+          "column": 50
+        }
+      },
+      "children": [],
+      "parent": "root",
+      "data": {}
+    },
+    "WV5rSesInioRzqHshkj3d": {
+      "id": "WV5rSesInioRzqHshkj3d",
+      "title": "Shell",
+      "desc": "",
+      "updated": 1629364520229,
+      "created": 1629364205951,
+      "custom": {},
+      "fname": "shell",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "6bf20d241470d651aa528fe292f5e944",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "root",
+      "data": {}
+    },
+    "XwQeSexcG9aXR3Nup9sfO": {
+      "id": "XwQeSexcG9aXR3Nup9sfO",
+      "title": "Security",
+      "desc": "",
+      "updated": 1630083004933,
+      "created": 1630083004933,
+      "custom": {},
+      "fname": "security",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "67339de70a28ca65e2c03c7df4862719",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "EBJW3CtqPr9HUGme60B1p"
+      ],
+      "parent": "root",
+      "data": {}
+    },
+    "EBJW3CtqPr9HUGme60B1p": {
+      "id": "EBJW3CtqPr9HUGme60B1p",
+      "title": "HTTPS",
+      "desc": "",
+      "updated": 1630083044794,
+      "created": 1630083021305,
+      "custom": {},
+      "fname": "security.https",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "acd1dd50adb5cd7841fe802a260e2d98",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "XwQeSexcG9aXR3Nup9sfO",
+      "data": {}
+    },
+    "ilYZBynzACvCgbahKiEJS": {
+      "id": "ilYZBynzACvCgbahKiEJS",
+      "title": "Rust",
+      "desc": "",
+      "updated": 1630678890749,
+      "created": 1629345190851,
+      "custom": {},
+      "fname": "rust",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "543853cd2a72dff85764227c481b5691",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "k39RuYAC7CdaMz6kejaTf",
+        "P8XDksZhK4PYUWgdbhlGt",
+        "zK1H2Ek09g4tTiv7rj9g7",
+        "kd3z6mvmw58qj0cmuy6nf9u",
+        "u1w6z6fkua4wo7y3dw76hp2",
+        "9pKt2g7tu9gfqT6ha9p98",
+        "bFGSO6IQzvd38BNuz0QTg",
+        "rPvMKkYF8P37T5WNNnVtx"
+      ],
+      "parent": "root",
+      "data": {}
+    },
+    "rPvMKkYF8P37T5WNNnVtx": {
+      "id": "rPvMKkYF8P37T5WNNnVtx",
+      "title": "Thread",
+      "desc": "",
+      "updated": 1629533876318,
+      "created": 1629533824938,
+      "custom": {},
+      "fname": "rust.thread",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "1d1d52dbe9a12ced4440e6b8fc6d5fa9",
+      "links": [],
+      "anchors": {
+        "scheduling": {
+          "type": "header",
+          "text": "Scheduling",
+          "value": "scheduling",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "ilYZBynzACvCgbahKiEJS",
+      "data": {}
+    },
+    "bFGSO6IQzvd38BNuz0QTg": {
+      "id": "bFGSO6IQzvd38BNuz0QTg",
+      "title": "String",
+      "desc": "",
+      "updated": 1631242404735,
+      "created": 1629790933556,
+      "custom": {},
+      "fname": "rust.string",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "e8af173af9a989bbbd1193cf8055b64e",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "ilYZBynzACvCgbahKiEJS",
+      "data": {}
+    },
+    "9pKt2g7tu9gfqT6ha9p98": {
+      "id": "9pKt2g7tu9gfqT6ha9p98",
+      "title": "Profiling",
+      "desc": "",
+      "updated": 1629350038596,
+      "created": 1629349636917,
+      "custom": {},
+      "fname": "rust.profiling",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "9fafb17686b696a97fbe19ad83096c31",
+      "links": [],
+      "anchors": {
+        "valgrind-dhat": {
+          "type": "header",
+          "text": "Valgrind DHAT",
+          "value": "valgrind-dhat",
+          "line": 16,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "ilYZBynzACvCgbahKiEJS",
+      "data": {}
+    },
+    "u1w6z6fkua4wo7y3dw76hp2": {
+      "id": "u1w6z6fkua4wo7y3dw76hp2",
+      "title": "Loop",
+      "desc": "",
+      "updated": 1661866019181,
+      "created": 1661865976750,
+      "custom": {},
+      "fname": "rust.loop",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "88c7c6f720ff5b59a69ea2ae1574230e",
+      "links": [],
+      "anchors": {
+        "range": {
+          "type": "header",
+          "text": "Range",
+          "value": "range",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "ilYZBynzACvCgbahKiEJS",
+      "data": {}
+    },
+    "kd3z6mvmw58qj0cmuy6nf9u": {
+      "id": "kd3z6mvmw58qj0cmuy6nf9u",
+      "title": "Logger",
+      "desc": "",
+      "updated": 1649773502237,
+      "created": 1649773423598,
+      "custom": {},
+      "fname": "rust.logger",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "4b997403bb322c01a3bd23379d00d6e3",
+      "links": [],
+      "anchors": {
+        "simple_logger": {
+          "type": "header",
+          "text": "simple_logger",
+          "value": "simple_logger",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "ilYZBynzACvCgbahKiEJS",
+      "data": {}
+    },
+    "zK1H2Ek09g4tTiv7rj9g7": {
+      "id": "zK1H2Ek09g4tTiv7rj9g7",
+      "title": "Common",
+      "desc": "",
+      "updated": 1629879162680,
+      "created": 1629879101366,
+      "custom": {},
+      "fname": "rust.common",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "60a948fc6953843dc0f10b506aa1a803",
+      "links": [],
+      "anchors": {
+        "loop": {
+          "type": "header",
+          "text": "Loop",
+          "value": "loop",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "ilYZBynzACvCgbahKiEJS",
+      "data": {}
+    },
+    "P8XDksZhK4PYUWgdbhlGt": {
+      "id": "P8XDksZhK4PYUWgdbhlGt",
+      "title": "Cargo",
+      "desc": "",
+      "updated": 1629349628245,
+      "created": 1629349570449,
+      "custom": {},
+      "fname": "rust.cargo",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "2ab78d1f04b5400a14e337d5bba33695",
+      "links": [],
+      "anchors": {
+        "release": {
+          "type": "header",
+          "text": "Release",
+          "value": "release",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "ilYZBynzACvCgbahKiEJS",
+      "data": {}
+    },
+    "k39RuYAC7CdaMz6kejaTf": {
+      "id": "k39RuYAC7CdaMz6kejaTf",
+      "title": "Vec",
+      "desc": "",
+      "updated": 1661930171679,
+      "created": 1630726736756,
+      "custom": {},
+      "fname": "rust.Vec",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "46172b96973ba4403bf6d63e488e3974",
+      "links": [],
+      "anchors": {
+        "slicing": {
+          "type": "header",
+          "text": "Slicing",
+          "value": "slicing",
+          "line": 20,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "ilYZBynzACvCgbahKiEJS",
+      "data": {}
+    },
+    "5cC5mQxrfumDIfdcdCVDc": {
+      "id": "5cC5mQxrfumDIfdcdCVDc",
+      "title": "Release",
+      "desc": "",
+      "updated": 1629537497215,
+      "created": 1629537497215,
+      "custom": {},
+      "fname": "release",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "b05ff915732fcbd07f567f57fb5fae3f",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "mBuTpOOtVkglbSMglPdkJ"
+      ],
+      "parent": "root",
+      "data": {}
+    },
+    "mBuTpOOtVkglbSMglPdkJ": {
+      "id": "mBuTpOOtVkglbSMglPdkJ",
+      "title": "Semantic Versioning",
+      "desc": "",
+      "updated": 1629537529508,
+      "created": 1629537511545,
+      "custom": {},
+      "fname": "release.semantic-versioning",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "45a95e2d9a9bfd1401702ecde730a902",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "5cC5mQxrfumDIfdcdCVDc",
+      "data": {}
+    },
+    "1HMHIbaI72wqV5yygOOy2": {
+      "id": "1HMHIbaI72wqV5yygOOy2",
+      "title": "Redis",
+      "desc": "",
+      "updated": 1629772239462,
+      "created": 1629772239462,
+      "custom": {},
+      "fname": "redis",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "5f1fa74f8caee9d8647057558b9e5e58",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "uCa7YBe3JQFPWW0I0X4Nr"
+      ],
+      "parent": "root",
+      "data": {}
+    },
+    "uCa7YBe3JQFPWW0I0X4Nr": {
+      "id": "uCa7YBe3JQFPWW0I0X4Nr",
+      "title": "Notifications",
+      "desc": "",
+      "updated": 1631190402367,
+      "created": 1629772257076,
+      "custom": {},
+      "fname": "redis.notifications",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "c2e528f9f60f42b91e044b900c86bf94",
+      "links": [],
+      "anchors": {
+        "configuration": {
+          "type": "header",
+          "text": "Configuration",
+          "value": "configuration",
+          "line": 11,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "1HMHIbaI72wqV5yygOOy2",
+      "data": {}
+    },
+    "iGcqmAnPvaNbv3id9Yzlq": {
+      "id": "iGcqmAnPvaNbv3id9Yzlq",
+      "title": "Python",
+      "desc": "",
+      "updated": 1629355352853,
+      "created": 1629355352853,
+      "custom": {},
+      "fname": "python",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "28397d3c255cba00fc1605753c56c23b",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "k3otcfe1kfpy292xsf854g7",
+        "b4tvi5ssm94tq42w37mncoi",
+        "v4lpdn9lzw7nqxacy17cbim",
+        "6koiKMqrATjP4oC6N4tyT",
+        "abdqij5e468cjg14z3xgy8r"
+      ],
+      "parent": "root",
+      "data": {}
+    },
+    "abdqij5e468cjg14z3xgy8r": {
+      "id": "abdqij5e468cjg14z3xgy8r",
+      "title": "Snippets",
+      "desc": "",
+      "updated": 1647840808993,
+      "created": 1647840757444,
+      "custom": {},
+      "fname": "python.snippets",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "b311074d4f01c3617269376336058fb3",
+      "links": [],
+      "anchors": {
+        "with": {
+          "type": "header",
+          "text": "With",
+          "value": "with",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "iGcqmAnPvaNbv3id9Yzlq",
+      "data": {}
+    },
+    "6koiKMqrATjP4oC6N4tyT": {
+      "id": "6koiKMqrATjP4oC6N4tyT",
+      "title": "Pip",
+      "desc": "",
+      "updated": 1629362966357,
+      "created": 1629355364553,
+      "custom": {},
+      "fname": "python.pip",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "74b2ed201c9e02f52c3451396a0eb741",
+      "links": [],
+      "anchors": {
+        "options": {
+          "type": "header",
+          "text": "Options",
+          "value": "options",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "iGcqmAnPvaNbv3id9Yzlq",
+      "data": {}
+    },
+    "v4lpdn9lzw7nqxacy17cbim": {
+      "id": "v4lpdn9lzw7nqxacy17cbim",
+      "title": "Number",
+      "desc": "",
+      "updated": 1649918125528,
+      "created": 1649916573687,
+      "custom": {},
+      "fname": "python.number",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "6db5f811c3a68a09ca6cc3d4bfcd366d",
+      "links": [
+        {
+          "from": {
+            "fname": "web3.blockchain.solana",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 6,
+              "column": 82,
+              "offset": 207
+            },
+            "end": {
+              "line": 6,
+              "column": 128,
+              "offset": 253
+            },
+            "indent": []
+          },
+          "value": "python.number"
+        }
+      ],
+      "anchors": {
+        "hex": {
+          "type": "header",
+          "text": "Hex",
+          "value": "hex",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "bytes-array-to-hex-string": {
+          "type": "header",
+          "text": "Bytes Array to Hex String",
+          "value": "bytes-array-to-hex-string",
+          "line": 10,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "iGcqmAnPvaNbv3id9Yzlq",
+      "data": {}
+    },
+    "b4tvi5ssm94tq42w37mncoi": {
+      "id": "b4tvi5ssm94tq42w37mncoi",
+      "title": "Fs",
+      "desc": "",
+      "updated": 1649146598867,
+      "created": 1649146598867,
+      "custom": {},
+      "fname": "python.fs",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "f43624a9ce09153de0a77373363fb3ea",
+      "links": [
+        {
+          "from": {
+            "fname": "filesystem",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 22,
+              "column": 1,
+              "offset": 303
+            },
+            "end": {
+              "line": 22,
+              "column": 27,
+              "offset": 329
+            },
+            "indent": []
+          },
+          "value": "python.fs"
+        }
+      ],
+      "anchors": {
+        "directories": {
+          "type": "header",
+          "text": "Directories",
+          "value": "directories",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "iGcqmAnPvaNbv3id9Yzlq",
+      "data": {}
+    },
+    "k3otcfe1kfpy292xsf854g7": {
+      "id": "k3otcfe1kfpy292xsf854g7",
+      "title": "Datetime",
+      "desc": "",
+      "updated": 1649849708568,
+      "created": 1649849499006,
+      "custom": {},
+      "fname": "python.datetime",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "436370034168be9e61c9186ac56509d6",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "python.datetime",
+            "id": "k3otcfe1kfpy292xsf854g7",
+            "vaultName": "vault"
+          },
+          "value": "datetime",
+          "alias": "datetime",
+          "position": {
+            "start": {
+              "line": 8,
+              "column": 10,
+              "offset": 92
+            },
+            "end": {
+              "line": 8,
+              "column": 36,
+              "offset": 118
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "datetime",
+            "anchorHeader": "format-string"
+          }
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "iGcqmAnPvaNbv3id9Yzlq",
+      "data": {}
+    },
+    "57f4clQJ2JXrmofcgEiEg": {
+      "id": "57f4clQJ2JXrmofcgEiEg",
+      "title": "Node.js",
+      "desc": "",
+      "updated": 1630549278097,
+      "created": 1630549278097,
+      "custom": {},
+      "fname": "nodejs",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "4fa2930e5417b4be9d440104b539ac4f",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "hC45Ih69U5YC3dmOh8i8W",
+        "tu3c7if9bmm1mb512s2h63l",
+        "hlz5f9w41ccv9atou1wausf",
+        "4UKepWnNXIj51rkZibTi7",
+        "3vNEbBytuQYseW9QM2tbT"
+      ],
+      "parent": "root",
+      "data": {}
+    },
+    "3vNEbBytuQYseW9QM2tbT": {
+      "id": "3vNEbBytuQYseW9QM2tbT",
+      "title": "String",
+      "desc": "",
+      "updated": 1650084777252,
+      "created": 1630549297745,
+      "custom": {},
+      "fname": "nodejs.string",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "2acc24b746fd2cbf3d07db4c224c0c4e",
+      "links": [],
+      "anchors": {
+        "replace": {
+          "type": "header",
+          "text": "Replace",
+          "value": "replace",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "strip": {
+          "type": "header",
+          "text": "strip",
+          "value": "strip",
+          "line": 13,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "57f4clQJ2JXrmofcgEiEg",
+      "data": {}
+    },
+    "4UKepWnNXIj51rkZibTi7": {
+      "id": "4UKepWnNXIj51rkZibTi7",
+      "title": "Package_manager",
+      "desc": "",
+      "updated": 1647427666022,
+      "created": 1647427559898,
+      "custom": {},
+      "fname": "nodejs.package_manager",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "5e68f070afb2a933bd4fb7eacdcaf6da",
+      "links": [],
+      "anchors": {
+        "install-denpendencies": {
+          "type": "header",
+          "text": "Install Denpendencies",
+          "value": "install-denpendencies",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "57f4clQJ2JXrmofcgEiEg",
+      "data": {}
+    },
+    "hlz5f9w41ccv9atou1wausf": {
+      "id": "hlz5f9w41ccv9atou1wausf",
+      "title": "Docker",
+      "desc": "",
+      "updated": 1650108302571,
+      "created": 1650106946143,
+      "custom": {},
+      "fname": "nodejs.docker",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "43b0d89ab398a2581e490794c89d44a8",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "nodejs.docker",
+            "id": "hlz5f9w41ccv9atou1wausf",
+            "vaultName": "vault"
+          },
+          "value": "docker.compose",
+          "alias": "docker.compose",
+          "position": {
+            "start": {
+              "line": 45,
+              "column": 10,
+              "offset": 779
+            },
+            "end": {
+              "line": 45,
+              "column": 28,
+              "offset": 797
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "docker.compose"
+          }
+        }
+      ],
+      "anchors": {
+        "build-a-docker-image": {
+          "type": "header",
+          "text": "Build a Docker Image",
+          "value": "build-a-docker-image",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "usage-in-docker-compose": {
+          "type": "header",
+          "text": "Usage in docker-compose",
+          "value": "usage-in-docker-compose",
+          "line": 34,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "57f4clQJ2JXrmofcgEiEg",
+      "data": {}
+    },
+    "tu3c7if9bmm1mb512s2h63l": {
+      "id": "tu3c7if9bmm1mb512s2h63l",
+      "title": "Base64",
+      "desc": "",
+      "updated": 1650082897798,
+      "created": 1650082852740,
+      "custom": {},
+      "fname": "nodejs.base64",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "14d3bc03dedca72fc67fe065df0e2f29",
+      "links": [],
+      "anchors": {
+        "decoding": {
+          "type": "header",
+          "text": "Decoding",
+          "value": "decoding",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "57f4clQJ2JXrmofcgEiEg",
+      "data": {}
+    },
+    "hC45Ih69U5YC3dmOh8i8W": {
+      "id": "hC45Ih69U5YC3dmOh8i8W",
+      "title": "Array",
+      "desc": "",
+      "updated": 1630559882223,
+      "created": 1630559837976,
+      "custom": {},
+      "fname": "nodejs.array",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "3cbc912da3aeac94f98ffb1dd90565fa",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "57f4clQJ2JXrmofcgEiEg",
+      "data": {}
+    },
+    "zutS4hYNVCo2dpYj9kOag": {
+      "id": "zutS4hYNVCo2dpYj9kOag",
+      "title": "Makefile",
+      "desc": "",
+      "updated": 1629344063391,
+      "created": 1629340470571,
+      "custom": {},
+      "fname": "makefile",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "35d6469199e43d780c489fd827316bc1",
+      "links": [],
+      "anchors": {
+        "additional-variables": {
+          "type": "header",
+          "text": "Additional Variables",
+          "value": "additional-variables",
+          "line": 12,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "root",
+      "data": {}
+    },
+    "lqHJHeKtzqn5G8uV6Dgjz": {
+      "id": "lqHJHeKtzqn5G8uV6Dgjz",
+      "title": "JavaScript",
+      "desc": "",
+      "updated": 1629770371743,
+      "created": 1629770371743,
+      "custom": {},
+      "fname": "javascript",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "cfa02c041e33655d333e067e6b5624b5",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "ZKodI2pLSMjzWZJ4Ak79c"
+      ],
+      "parent": "root",
+      "data": {}
+    },
+    "ZKodI2pLSMjzWZJ4Ak79c": {
+      "id": "ZKodI2pLSMjzWZJ4Ak79c",
+      "title": "Prettier",
+      "desc": "",
+      "updated": 1629771346118,
+      "created": 1629770411213,
+      "custom": {},
+      "fname": "javascript.prettier",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "2b965a9ace9887d38dfcbbd2ef7d0127",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "lqHJHeKtzqn5G8uV6Dgjz",
+      "data": {}
+    },
+    "vLN66cbj18kIA9aNMw4MV": {
+      "id": "vLN66cbj18kIA9aNMw4MV",
+      "title": "GitHub Actions",
+      "desc": "",
+      "updated": 1636544252506,
+      "created": 1629255661366,
+      "custom": {},
+      "fname": "github-actions",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "5d33966bd72c3be5b3cb8cc98bc52f82",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "zq90O0PuaZoF5QghaJyNA"
+      ],
+      "parent": "root",
+      "data": {}
+    },
+    "zq90O0PuaZoF5QghaJyNA": {
+      "id": "zq90O0PuaZoF5QghaJyNA",
+      "title": "Cache",
+      "desc": "",
+      "updated": 1630133485555,
+      "created": 1629255926895,
+      "custom": {},
+      "fname": "github-actions.cache",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "6952436d27dcdaec0d6e2ac97dc13aa0",
+      "links": [],
+      "anchors": {
+        "npm": {
+          "type": "header",
+          "text": "NPM",
+          "value": "npm",
+          "line": 10,
+          "column": 0,
+          "depth": 2
+        },
+        "rustcargo": {
+          "type": "header",
+          "text": "Rust/Cargo",
+          "value": "rustcargo",
+          "line": 21,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "vLN66cbj18kIA9aNMw4MV",
+      "data": {}
+    },
+    "q6pJclRsTZxkELPEhZmaM": {
+      "id": "q6pJclRsTZxkELPEhZmaM",
+      "title": "Git",
+      "desc": "",
+      "updated": 1662445199514,
+      "created": 1629355098634,
+      "custom": {},
+      "fname": "git",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "ae916ac0f465c2f58691da8adbe11a55",
+      "links": [],
+      "anchors": {
+        "clean-up": {
+          "type": "header",
+          "text": "Clean up",
+          "value": "clean-up",
+          "line": 34,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [
+        "6mskxfe8w6zkiAyqzQdXM",
+        "t0CLYhShabVFDguegGPGs",
+        "TaY86fkqN4LIWUUQJgEtp"
+      ],
+      "parent": "root",
+      "data": {}
+    },
+    "TaY86fkqN4LIWUUQJgEtp": {
+      "id": "TaY86fkqN4LIWUUQJgEtp",
+      "title": "Tag",
+      "desc": "",
+      "updated": 1631536304431,
+      "created": 1631536157303,
+      "custom": {},
+      "fname": "git.tag",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "b7468823bdf0eef456231585b7f7daac",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "q6pJclRsTZxkELPEhZmaM",
+      "data": {}
+    },
+    "t0CLYhShabVFDguegGPGs": {
+      "id": "t0CLYhShabVFDguegGPGs",
+      "title": "Submodule",
+      "desc": "",
+      "updated": 1647427245171,
+      "created": 1647427172217,
+      "custom": {},
+      "fname": "git.submodule",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "6f691233f8fbbaa66a19f9edabbcf0a8",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "q6pJclRsTZxkELPEhZmaM",
+      "data": {}
+    },
+    "6mskxfe8w6zkiAyqzQdXM": {
+      "id": "6mskxfe8w6zkiAyqzQdXM",
+      "title": "Stash",
+      "desc": "",
+      "updated": 1629773610397,
+      "created": 1629773581852,
+      "custom": {},
+      "fname": "git.stash",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "e337954171040f3d3976cdb27b3f7613",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "q6pJclRsTZxkELPEhZmaM",
+      "data": {}
+    },
+    "2sq996cqtzuvgkkb0oxaffi": {
+      "id": "2sq996cqtzuvgkkb0oxaffi",
+      "title": "Filesystem",
+      "desc": "",
+      "updated": 1649912227593,
+      "created": 1649407295998,
+      "custom": {},
+      "fname": "filesystem",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "b3f9e52ada1093418c154b2951754d67",
+      "links": [
+        {
+          "type": "ref",
+          "from": {
+            "fname": "filesystem",
+            "id": "2sq996cqtzuvgkkb0oxaffi",
+            "vaultName": "vault"
+          },
+          "value": "python.fs",
+          "position": {
+            "start": {
+              "line": 22,
+              "column": 1,
+              "offset": 303
+            },
+            "end": {
+              "line": 22,
+              "column": 27,
+              "offset": 329
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "python.fs",
+            "anchorHeader": "directories"
+          }
+        },
+        {
+          "from": {
+            "fname": "ssh",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 20,
+              "column": 11,
+              "offset": 340
+            },
+            "end": {
+              "line": 20,
+              "column": 52,
+              "offset": 381
+            },
+            "indent": []
+          },
+          "value": "filesystem",
+          "alias": "FS permissions"
+        }
+      ],
+      "anchors": {
+        "permissions": {
+          "type": "header",
+          "text": "Permissions",
+          "value": "permissions",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "octal-representation": {
+          "type": "header",
+          "text": "Octal Representation",
+          "value": "octal-representation",
+          "line": 18,
+          "column": 0,
+          "depth": 3
+        },
+        "apis": {
+          "type": "header",
+          "text": "APIs",
+          "value": "apis",
+          "line": 24,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "root",
+      "data": {}
+    },
+    "kT8lGz7T92y83Bmayuek3": {
+      "id": "kT8lGz7T92y83Bmayuek3",
+      "title": "Docker",
+      "desc": "",
+      "updated": 1634480477187,
+      "created": 1630681649835,
+      "custom": {},
+      "fname": "docker",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "152c3a8b72b001cb1a1574137740462e",
+      "links": [],
+      "anchors": {
+        "installation": {
+          "type": "header",
+          "text": "Installation",
+          "value": "installation",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [
+        "NjmLXR2FTwuqZG4PMPoZM",
+        "op74m73qevv3yo5jaq8wxmi"
+      ],
+      "parent": "root",
+      "data": {}
+    },
+    "op74m73qevv3yo5jaq8wxmi": {
+      "id": "op74m73qevv3yo5jaq8wxmi",
+      "title": "Proxy",
+      "desc": "",
+      "updated": 1650107329370,
+      "created": 1650096928711,
+      "custom": {},
+      "fname": "docker.proxy",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "b31bc37d21d0f02907a9064d1ca3e9be",
+      "links": [],
+      "anchors": {
+        "daemon": {
+          "type": "header",
+          "text": "Daemon",
+          "value": "daemon",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "client": {
+          "type": "header",
+          "text": "Client",
+          "value": "client",
+          "line": 17,
+          "column": 0,
+          "depth": 2
+        },
+        "reference": {
+          "type": "header",
+          "text": "Reference",
+          "value": "reference",
+          "line": 33,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "kT8lGz7T92y83Bmayuek3",
+      "data": {}
+    },
+    "NjmLXR2FTwuqZG4PMPoZM": {
+      "id": "NjmLXR2FTwuqZG4PMPoZM",
+      "title": "Compose",
+      "desc": "",
+      "updated": 1650205948489,
+      "created": 1630681664800,
+      "custom": {},
+      "fname": "docker.compose",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "bd9531f4092f5874cf2f1db06ce177a5",
+      "links": [
+        {
+          "from": {
+            "fname": "nodejs.docker",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 45,
+              "column": 10,
+              "offset": 779
+            },
+            "end": {
+              "line": 45,
+              "column": 28,
+              "offset": 797
+            },
+            "indent": []
+          },
+          "value": "docker.compose",
+          "alias": "docker.compose"
+        }
+      ],
+      "anchors": {
+        "compose-file": {
+          "type": "header",
+          "text": "Compose File",
+          "value": "compose-file",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "cli": {
+          "type": "header",
+          "text": "CLI",
+          "value": "cli",
+          "line": 38,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "kT8lGz7T92y83Bmayuek3",
+      "data": {}
+    },
+    "O2S4W1M85TQUNB6ezSii6": {
+      "id": "O2S4W1M85TQUNB6ezSii6",
+      "title": "Devenv",
+      "desc": "",
+      "updated": 1629349767767,
+      "created": 1629349767767,
+      "custom": {},
+      "fname": "devenv",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "42878ce707f87c4790ab4e2eaddeab60",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "d6GmujtbjWQkTYWwqByKB"
+      ],
+      "parent": "root",
+      "data": {}
+    },
+    "d6GmujtbjWQkTYWwqByKB": {
+      "id": "d6GmujtbjWQkTYWwqByKB",
+      "title": "Valgrind",
+      "desc": "",
+      "updated": 1629349827185,
+      "created": 1629349785787,
+      "custom": {},
+      "fname": "devenv.valgrind",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "a5a0b34754d934ef25f69d4832285b2a",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "O2S4W1M85TQUNB6ezSii6",
+      "data": {}
+    },
+    "1KxSxofvnokSQe53CFOo0": {
+      "id": "1KxSxofvnokSQe53CFOo0",
+      "title": "Deployment",
+      "desc": "",
+      "updated": 1629364553321,
+      "created": 1629364553321,
+      "custom": {},
+      "fname": "deployment",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "dd35b288d2f4d35a085d003f0a3f3053",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "Jug6Cfz0br2J1yMjpxaOE"
+      ],
+      "parent": "root",
+      "data": {}
+    },
+    "Jug6Cfz0br2J1yMjpxaOE": {
+      "id": "Jug6Cfz0br2J1yMjpxaOE",
+      "title": "Vercel",
+      "desc": "",
+      "updated": 1629770252902,
+      "created": 1629364560502,
+      "custom": {},
+      "fname": "deployment.vercel",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "6cdbf800b2339a700bce5c6918f42591",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "1KxSxofvnokSQe53CFOo0",
+      "data": {}
+    },
+    "aJOPNFwrIPLtAyP5ZH7OH": {
+      "id": "aJOPNFwrIPLtAyP5ZH7OH",
+      "title": "Dendron",
+      "desc": "",
+      "updated": 1629279656544,
+      "created": 1629258990551,
+      "custom": {},
+      "fname": "dendron",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "ccca11a5907dc97e812fe326936cd43b",
+      "links": [],
+      "anchors": {
+        "cli": {
+          "type": "header",
+          "text": "CLI",
+          "value": "cli",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "root",
+      "data": {}
+    },
+    "n6gwvp2ofauwivuxt5o4eip": {
+      "id": "n6gwvp2ofauwivuxt5o4eip",
+      "title": "Datetime",
+      "desc": "",
+      "updated": 1649849674341,
+      "created": 1649849589507,
+      "custom": {},
+      "fname": "datetime",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "85325deba8c42adf53bed473b67d439a",
+      "links": [
+        {
+          "from": {
+            "fname": "python.datetime",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 8,
+              "column": 10,
+              "offset": 92
+            },
+            "end": {
+              "line": 8,
+              "column": 36,
+              "offset": 118
+            },
+            "indent": []
+          },
+          "value": "datetime",
+          "alias": "datetime"
+        }
+      ],
+      "anchors": {
+        "format-string": {
+          "type": "header",
+          "text": "Format String",
+          "value": "format-string",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "root",
+      "data": {}
+    },
+    "okew0flrpfnigkzv389165w": {
+      "id": "okew0flrpfnigkzv389165w",
+      "title": "Crontab",
+      "desc": "",
+      "updated": 1647431121688,
+      "created": 1647431059327,
+      "custom": {},
+      "fname": "crontab",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "ce15b2ca6e9ade1521f0ed965509ec9a",
+      "links": [],
+      "anchors": {
+        "grammar": {
+          "type": "header",
+          "text": "Grammar",
+          "value": "grammar",
+          "line": 12,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "root",
+      "data": {}
+    }
+  },
+  "domains": [
+    {
+      "id": "root",
+      "title": "root",
+      "desc": "",
+      "updated": 1629283164297,
+      "created": 1595961348801,
+      "stub": false,
+      "custom": {
+        "stub": false,
+        "nav_order": 0,
+        "permalink": "/"
+      },
+      "fname": "root",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "93c88ed3adea90427fdf39121b331342",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "okew0flrpfnigkzv389165w",
+        "n6gwvp2ofauwivuxt5o4eip",
+        "aJOPNFwrIPLtAyP5ZH7OH",
+        "1KxSxofvnokSQe53CFOo0",
+        "O2S4W1M85TQUNB6ezSii6",
+        "kT8lGz7T92y83Bmayuek3",
+        "2sq996cqtzuvgkkb0oxaffi",
+        "q6pJclRsTZxkELPEhZmaM",
+        "vLN66cbj18kIA9aNMw4MV",
+        "lqHJHeKtzqn5G8uV6Dgjz",
+        "zutS4hYNVCo2dpYj9kOag",
+        "57f4clQJ2JXrmofcgEiEg",
+        "iGcqmAnPvaNbv3id9Yzlq",
+        "1HMHIbaI72wqV5yygOOy2",
+        "5cC5mQxrfumDIfdcdCVDc",
+        "ilYZBynzACvCgbahKiEJS",
+        "XwQeSexcG9aXR3Nup9sfO",
+        "WV5rSesInioRzqHshkj3d",
+        "34HTG9klr3NzTjkUghbvJ",
+        "X9uWnD0W4PueyYSNY5t1G",
+        "H47jfrioajR7bt6nfIzv8",
+        "8iHAYz6PYx7El5ebflATs",
+        "0qr5dqtgurrycsmhcs1ne8j",
+        "gajq97i0tzjjmn3lbwoxzyb",
+        "6jlu0z5bi4vsre3q2g1wocs",
+        "kb6x14sej5pohx7rvdhe7vh",
+        "lyfjirhhdg0n882kxx32j13",
+        "9bwrkklew20kpuaxwcnknm7",
+        "k85g4f75rswmy0zp09cdazj"
+      ],
+      "parent": null,
+      "data": {},
+      "body": "\n👋 This is the root of SeanChao's Dendron vault.\n\n🔗 [repo](https://github.com/SeanChao/Dendron)\n"
+    }
+  ],
+  "noteIndex": {
+    "id": "root",
+    "title": "root",
+    "desc": "",
+    "updated": 1629283164297,
+    "created": 1595961348801,
+    "stub": false,
+    "custom": {
+      "stub": false,
+      "nav_order": 0,
+      "permalink": "/"
+    },
+    "fname": "root",
+    "type": "note",
+    "vault": {
+      "fsPath": "vault"
+    },
+    "contentHash": "93c88ed3adea90427fdf39121b331342",
+    "links": [],
+    "anchors": {},
+    "children": [
+      "okew0flrpfnigkzv389165w",
+      "n6gwvp2ofauwivuxt5o4eip",
+      "aJOPNFwrIPLtAyP5ZH7OH",
+      "1KxSxofvnokSQe53CFOo0",
+      "O2S4W1M85TQUNB6ezSii6",
+      "kT8lGz7T92y83Bmayuek3",
+      "2sq996cqtzuvgkkb0oxaffi",
+      "q6pJclRsTZxkELPEhZmaM",
+      "vLN66cbj18kIA9aNMw4MV",
+      "lqHJHeKtzqn5G8uV6Dgjz",
+      "zutS4hYNVCo2dpYj9kOag",
+      "57f4clQJ2JXrmofcgEiEg",
+      "iGcqmAnPvaNbv3id9Yzlq",
+      "1HMHIbaI72wqV5yygOOy2",
+      "5cC5mQxrfumDIfdcdCVDc",
+      "ilYZBynzACvCgbahKiEJS",
+      "XwQeSexcG9aXR3Nup9sfO",
+      "WV5rSesInioRzqHshkj3d",
+      "34HTG9klr3NzTjkUghbvJ",
+      "X9uWnD0W4PueyYSNY5t1G",
+      "H47jfrioajR7bt6nfIzv8",
+      "8iHAYz6PYx7El5ebflATs",
+      "0qr5dqtgurrycsmhcs1ne8j",
+      "gajq97i0tzjjmn3lbwoxzyb",
+      "6jlu0z5bi4vsre3q2g1wocs",
+      "kb6x14sej5pohx7rvdhe7vh",
+      "lyfjirhhdg0n882kxx32j13",
+      "9bwrkklew20kpuaxwcnknm7",
+      "k85g4f75rswmy0zp09cdazj"
+    ],
+    "parent": null,
+    "data": {},
+    "body": "\n👋 This is the root of SeanChao's Dendron vault.\n\n🔗 [repo](https://github.com/SeanChao/Dendron)\n"
+  },
+  "vaults": [
+    {
+      "fsPath": "vault"
+    }
+  ]
+}

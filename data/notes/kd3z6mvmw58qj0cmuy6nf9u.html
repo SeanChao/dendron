@@ -1,0 +1,10 @@
+<h1 id="logger"><a aria-hidden="true" class="anchor-heading" href="#logger"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Logger</h1>
+<h2 id="simple_logger"><a aria-hidden="true" class="anchor-heading" href="#simple_logger"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a><a href="https://docs.rs/simple_logger/2.1.0/simple_logger/">simple_logger</a></h2>
+<p><code>simple_logger = "2.1.0"</code></p>
+<pre><code>// Just initialize logging without any configuration:
+simple_logger::init().unwrap();
+// Set the log level from the RUST_LOG environment variable:
+simple_logger::init_with_env().unwrap();
+// Hardcode a default log level:
+simple_logger::init_with_level(log::Level::Warn).unwrap();
+</code></pre>

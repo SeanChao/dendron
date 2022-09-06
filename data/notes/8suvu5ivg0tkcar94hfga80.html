@@ -1,0 +1,13 @@
+<h1 id="commands"><a aria-hidden="true" class="anchor-heading" href="#commands"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Commands</h1>
+<h2 id="define-commands"><a aria-hidden="true" class="anchor-heading" href="#define-commands"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Define Commands</h2>
+<pre class="language-tex"><code class="language-tex"><span class="token function selector">\newcommand</span><span class="token punctuation">{</span><span class="token function selector">\CmdName</span><span class="token punctuation">}</span><span class="token punctuation">{</span>content<span class="token punctuation">}</span>
+
+<span class="token function selector">\newcommand</span><span class="token punctuation">{</span><span class="token function selector">\bb</span><span class="token punctuation">}</span><span class="token punctuation">[</span>1<span class="token punctuation">]</span><span class="token punctuation">{</span><span class="token function selector">\mathbb</span><span class="token punctuation">{</span>#1<span class="token punctuation">}</span><span class="token punctuation">}</span> <span class="token comment">% command with 1 argument, #1 -- #9 refer to the arguments</span>
+<span class="token function selector">\bb</span><span class="token punctuation">{</span>C<span class="token punctuation">}</span>
+
+<span class="token function selector">\newcommand</span><span class="token punctuation">{</span><span class="token function selector">\plusbinomial</span><span class="token punctuation">}</span><span class="token punctuation">[</span>3<span class="token punctuation">]</span><span class="token punctuation">[</span>2<span class="token punctuation">]</span><span class="token punctuation">{</span>(#2 + #3)^#1<span class="token punctuation">}</span> <span class="token comment">% 2 is the default value for the first argument</span>
+</code></pre>
+<h2 id="reference"><a aria-hidden="true" class="anchor-heading" href="#reference"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Reference</h2>
+<ul>
+<li><a href="https://www.overleaf.com/learn/latex/Commands">https://www.overleaf.com/learn/latex/Commands</a></li>
+</ul>

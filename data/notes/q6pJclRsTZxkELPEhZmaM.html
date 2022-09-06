@@ -1,0 +1,32 @@
+<h1 id="git"><a aria-hidden="true" class="anchor-heading" href="#git"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Git</h1>
+<p>Revert local changes:</p>
+<pre><code>git checkout .
+git clean -fd # force, and recursive into dirs
+</code></pre>
+<p>Roll back to previous commit</p>
+<pre><code>git checkout -b old xxxxxx
+git reset --hard xxxxxx # beware!
+</code></pre>
+<p>Revert local modifications to a file:</p>
+<pre><code>git checkout HEAD -- &#x3C;file>
+</code></pre>
+<p>Revert the initial commit:</p>
+<pre><code>git update-ref -d HEAD # Update the object name stored in a ref safely, delete HEAD
+</code></pre>
+<p>Turn off paged output:</p>
+<pre><code>git config --global pager.branch false
+</code></pre>
+<p>Squash and merge:</p>
+<pre><code>git merge --squash bugfix
+</code></pre>
+<h2 id="clean-up"><a aria-hidden="true" class="anchor-heading" href="#clean-up"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Clean up</h2>
+<p>list merged branches:</p>
+<pre><code>git branch --merged origin/main
+</code></pre>
+<hr>
+<strong>Children</strong>
+<ol>
+<li><a href="/notes/6mskxfe8w6zkiAyqzQdXM">Stash</a></li>
+<li><a href="/notes/t0CLYhShabVFDguegGPGs">Submodule</a></li>
+<li><a href="/notes/TaY86fkqN4LIWUUQJgEtp">Tag</a></li>
+</ol>

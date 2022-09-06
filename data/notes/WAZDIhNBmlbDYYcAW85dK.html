@@ -1,0 +1,46 @@
+<h1 id="moving"><a aria-hidden="true" class="anchor-heading" href="#moving"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Moving</h1>
+<h2 id="moving-around"><a aria-hidden="true" class="anchor-heading" href="#moving-around"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Moving around</h2>
+<pre class="language-text"><code class="language-text">                        +---------------------------+
+                H -->   | text sample text          |
+                        | sample text               |
+                        | text sample text          |
+                        | sample text               |
+                M -->   | text sample text          |
+                        | sample text               |
+                        | text sample text          |
+                        | sample text               |
+                L -->   | text sample text          |
+                        +---------------------------+
+</code></pre>
+<h3 id="scrolling"><a aria-hidden="true" class="anchor-heading" href="#scrolling"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Scrolling</h3>
+<pre class="language-text"><code class="language-text">                                       +----------------+
+                                       | some text      |
+                                       | some text      |
+                                       | some text      |
+        +---------------+              | some text      |
+        | some text     |  CTRL-U  --> |                |
+        |               |              | 123456         |
+        | 123456        |              +----------------+
+        | 7890          |
+        |               |              +----------------+
+        | example       |  CTRL-D -->  | 7890           |
+        +---------------+              |                |
+                                       | example        |
+                                       | example        |
+                                       | example        |
+                                       | example        |
+                                       +----------------+
+
+zz: focus on current line
+</code></pre>
+<h2 id="marks-and-jump"><a aria-hidden="true" class="anchor-heading" href="#marks-and-jump"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Marks and Jump</h2>
+<p><code>` `</code>, <code>''</code>: [JUMP] jump back (to exact column, beginning of line)</p>
+<p><code>CTRL-O</code>: jumps to older positions</p>
+<p><code>CTRL-I</code>: jumps to newer positions</p>
+<p><code>ms</code>: mark current position to s</p>
+<p><code> `s</code>, <code>'s</code>: jump to mark s</p>
+<pre><code>    '       The cursor position before doing a jump
+    "       The cursor position when last editing the file
+    [       Start of the last change
+    ]       End of the last change
+</code></pre>
